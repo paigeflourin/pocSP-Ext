@@ -1,0 +1,71 @@
+[
+  {
+    "groupName": "Geographics group",
+    "filters": [
+      {
+        "classId": "country"
+      },
+      {
+        "classId": "geographics"
+      },
+      {
+        "classId": "geobuildings"
+      }
+    ]
+  },
+  {
+    "groupName": "General",
+    "filters": [
+      {
+        "classId": "subject"
+      },
+      {
+        "classId": "language"
+      },
+      {
+        "classId": "docFormat"
+      },
+      {
+        "classId": "topic"
+      }
+    ]
+  },
+  {
+    "groupName": null,
+    "filters": [
+      {
+        "classId": "events"
+      }
+    ]
+  },
+  {
+    "groupName": null,
+    "filters": [
+      {
+        "classId": "_promotedContent"
+      }
+    ]
+  },
+  {
+    "groupName": null,
+    "filters": [
+      {
+        "classId": "_modifiedDate"
+      }
+    ]
+  },
+  {
+    "groupName": "Art work",
+    "filters": [
+      {
+        "classId": "technique"
+      },
+      {
+        "classId": "material"
+      },
+      {
+        "classId": "color"
+      }
+    ]
+  }
+]

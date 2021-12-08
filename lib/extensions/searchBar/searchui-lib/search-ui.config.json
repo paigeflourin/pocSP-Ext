@@ -1,0 +1,117 @@
+{
+    "CompactResults": {
+        "showType": true,
+        "showPreviewAction": true,
+        "showShareAction": false
+    },
+    "SearchResultCard": {
+        "showPreviewAction": true,
+        "showShareAction": false
+    },
+    "Navbar": {
+        "showConnectorManagerRoute": false,
+        "navbarItems": [
+            {
+                "title": "Search UI",
+                "path": "./#/search",
+                "newTabOnClick": false,
+                "disabled": false
+            },
+            {
+                "title": "NER",
+                "path": "./#/ner",
+                "newTabOnClick": false,
+                "disabled": false
+            },
+            {
+                "title": "UI Catalog",
+                "path": "./#/ui-catalog",
+                "newTabOnClick": false,
+                "disabled": false
+            },
+            {
+                "title": "Configuration",
+                "path": "./#/configuration",
+                "newTabOnClick": false,
+                "disabled": false
+            }
+        ],
+        "navbarTitle": "Search Dashboard",
+        "backgroundType": "dark",
+        "showHelp": true
+    },
+    "SearchFilter": {
+        "showPromotedContentFilter": true,
+        "useDefaultFilterGroupConfig": false
+    },
+    "FilterGrouping": {
+        "showPromotedContentFilter": true
+    },
+    "Home": {
+        "showIcon": true,
+        "iconText": "Hi. What insights are you looking for?",
+        "showAdminToolkits": false,
+        "toolkitsTitle": "",
+        "adminToolkits": []
+    },
+    "SearchBar": {
+        "searchInputPlaceholder": "Search documents, websites, news, questions..."
+    },
+    "FacetedSearch": {
+        "searchBar__defaultTemplatePlugin": "TrendingSearchPlugin"
+    },
+    "SearchResults": {
+        "isSourcesDropdownDisabled": false
+    },
+    "AdvancedSearchModal": {
+        "showProTips": true
+    },
+    "AdvancedSearchBar": {
+        "searchInputPlaceholder": "Search by knowledge graphs or filters",
+        "isFilterBasedSearchDisabled": false
+    },
+    "AltHomePage": {
+        "title": "Hi! What insights would you like?"
+    },
+    "OntologySearchGraph": {
+        "showRelationName": false,
+        "showRelationArrow": true,
+        "showGraphNameInBadge": false
+    },
+    "OntologySearchHistory": {
+        "showRelationName": false
+    },
+    "TrendingTopics": {
+        "showGraphNameInBadge": false
+    },
+    "OntologySearchClassTable": {
+        "showViewDetailsAction": false
+    },
+    "DocManager": {
+        "tabs": [
+            {
+                "id": "details",
+                "label": "Details",
+                "disabled": false
+            },
+            {
+                "id": "metadata",
+                "label": "Metadata",
+                "disabled": false
+            },
+            {
+                "id": "tags",
+                "label": "Tags",
+                "disabled": false
+            },
+            {
+                "id": "promotedContent",
+                "label": "Promoted content",
+                "disabled": false
+            }
+        ]
+    },
+    "TopNavigation": {
+        "appLogo": "tds-icons/app_logo.svg"
+    }
+}

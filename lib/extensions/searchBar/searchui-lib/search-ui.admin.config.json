@@ -1,0 +1,83 @@
+{
+  "Navbar": {
+    "showConnectorManagerRoute": false,
+    "navbarItems": [
+      {
+        "title": "Search UI",
+        "path": "./#/search",
+        "newTabOnClick": false,
+        "disabled": true
+      },
+      {
+        "title": "NER",
+        "path": "./#/ner",
+        "newTabOnClick": false,
+        "disabled": true
+      },
+      {
+        "title": "UI Catalog",
+        "path": "./#/ui-catalog",
+        "newTabOnClick": false,
+        "disabled": true
+      },
+      {
+        "title": "Configuration",
+        "path": "./#/configuration",
+        "newTabOnClick": false,
+        "disabled": true
+      }
+    ],
+    "navbarTitle": "Search Dashboard",
+    "backgroundType": "dark",
+    "showHelp": true
+  },
+  "SearchFilter": {
+    "showPromotedContentFilter": true,
+    "useDefaultFilterGroupConfig": false
+  },
+  "FilterGrouping": {
+    "showPromotedContentFilter": true
+  },
+  "Home": {
+    "showIcon": true,
+    "iconText": "Hi. What insights are you looking for?",
+    "showAdminToolkits": true,
+    "toolkitsTitle": "Admin toolkits",
+    "adminToolkits": [
+      {
+        "title": "Omnitive Graph",
+        "path": "/ontology-manager-ui/",
+        "newTabOnClick": true,
+        "content": "Manage classes, individuals, properties and relations in your knowledge graphs"
+      },
+      {
+        "title": "Connector Manager",
+        "path": "./#/connector/dashboard",
+        "content": "Create, view and manage the connectors &nbsp; <a href='./#/connector/wizard' target='_top'>Create Connector</a>"
+      },
+      {
+        "title": "Search Configuration",
+        "path": "./#/configuration",
+        "content": "Manage the search index and customise what and how the filters will be displayed in your Search UI"
+      },
+      {
+        "title": "Document Settings Manager",
+        "path": "./#/doc-manager",
+        "content": "View and manage the metadata and tags of your documents"
+      },
+      {
+        "title": "Automatic Entity Recognition",
+        "path": "./#/ner",
+        "content": "A simple demo of how the unstructured text is classified based on your knowledge graphs"
+      },
+      {
+        "title": "Search UI Catalog",
+        "path": "./#/ui-catalog",
+        "content": "A library of Search UI widgets which can be used in different search scenarios"
+      }
+    ]
+  },
+  "TopNavigation": {
+    "appLogo": "tds-icons/app_logo.svg"
+  }
+}

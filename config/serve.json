@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://taigers.sharepoint.com/SitePages/Test-Page-for-searchbar.aspx",
+      "customActions": {
+        "75e06db2-212d-41f4-ad01-758e014c7b40": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top area of the page",
+            "Bottom": "Test bottom",
+            "BackendBaseURL": "https://dsta-ta-dev-webs.southeastasia.cloudapp.azure.com/"
+          }
+        }
+      }
+    },
+    "searchBar": {
+      "pageUrl": "https://taigers.sharepoint.com/SitePages/Test-Page-for-searchbar.aspx",
+      "customActions": {
+        "75e06db2-212d-41f4-ad01-758e014c7b40": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top area of the page",
+            "Bottom": "Test bottom",
+            "BackendBaseURL": "https://dsta-ta-dev-webs.southeastasia.cloudapp.azure.com/"
+          }
+        }
+      }
+    }
+  }
+}
